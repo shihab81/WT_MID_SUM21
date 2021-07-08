@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table{
+            border-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr>
+         <th>  User Form </th>
+         </tr>
+        <tr>
+            <td>Enter Name</td>
+            <th> 
+                <form action="/action_page.php">
+                <input type="text">
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td>Enter Password</td>
+            <th> 
+                <form action="/action_page.php">
+                <input type="text">
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td>Enter Name</td>
+            <th> 
+                <form action="/action_page.php">
+                <textarea name="" id="" cols="20" rows="2"></textarea>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td>Select Game</td>
+            <th> 
+                <form action="/action_page.php">
+                <input type="checkbox" id="game" name="" value=" ">
+                <label for=" game">Hockey</label><br>
+                <input type="checkbox" id="game" name="" value=" ">
+                <label for=" game">Football</label><br>
+                <input type="checkbox" id="game" name="" value=" ">
+                <label for=" game">Badminton</label><br>
+                <input type="checkbox" id="game" name="" value=" ">
+                <label for=" game">Cricket</label><br>
+                <input type="checkbox" id="game" name="" value=" ">
+                <label for=" game">Volleyball</label>
+                </form>
+            </th>
+        </tr>
+        <tr> <td>Gender</td>
+            <td>
+                <input type="radio">
+                <label for=" ">Male</label>
+                <input type="radio">
+                <label for=" ">Female</label>
+            </td>
+        </tr>
+        <tr>
+    
+         
+             <td> Selact ur age</td>
+             <td>
+            <label for="state"> </label>
+        
+            <select name="state" id="state">
+                
+                <option value="select">Select</option>
+                <option value="age">19</option><br>    
+         </td>
+        </tr>
+        <tr>
+            <td> <button>Click Me</button> </td>
+            <td> <button>Reset</button></td>
+            
+        </tr>
+    </table>
+</center>
+</body>
+</html>
